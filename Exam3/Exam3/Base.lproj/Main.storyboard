@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gOp-Fq-kFe">
+                                <rect key="frame" x="0.0" y="51" width="136" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UnD-57-giZ">
+                                        <rect key="frame" x="18" y="49" width="102" height="30"/>
+                                        <state key="normal" title="상단 왼쪽"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="UnD-57-giZ" firstAttribute="centerX" secondItem="gOp-Fq-kFe" secondAttribute="centerX" id="FdE-wE-mYE"/>
+                                    <constraint firstAttribute="width" constant="136" id="nU6-cU-8Qg"/>
+                                    <constraint firstItem="UnD-57-giZ" firstAttribute="centerY" secondItem="gOp-Fq-kFe" secondAttribute="centerY" id="rs4-wD-LMT"/>
+                                    <constraint firstAttribute="height" constant="128" id="vOj-3b-wEy"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O0m-vh-3mG">
+                                <rect key="frame" x="144" y="51" width="170" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfG-Js-oOb">
+                                        <rect key="frame" x="39" y="49" width="102" height="30"/>
+                                        <state key="normal" title="상단 오른쪽">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="lfG-Js-oOb" firstAttribute="centerX" secondItem="O0m-vh-3mG" secondAttribute="centerX" id="FCq-p4-vfk"/>
+                                    <constraint firstAttribute="height" constant="128" id="TmD-Wx-P5U"/>
+                                    <constraint firstItem="lfG-Js-oOb" firstAttribute="centerY" secondItem="O0m-vh-3mG" secondAttribute="centerY" id="uj9-eI-pHX"/>
+                                    <constraint firstAttribute="width" constant="170" id="v3W-eb-mLf"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lf2-zm-VfR">
+                                <rect key="frame" x="0.0" y="328" width="314" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="666-Mb-gMe">
+                                        <rect key="frame" x="112" y="41" width="56" height="30"/>
+                                        <state key="normal" title="하단 아래"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="666-Mb-gMe" firstAttribute="centerX" secondItem="Lf2-zm-VfR" secondAttribute="centerX" id="JuW-Ky-at2"/>
+                                    <constraint firstItem="666-Mb-gMe" firstAttribute="centerY" secondItem="Lf2-zm-VfR" secondAttribute="centerY" id="q8B-1s-G8o"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cDO-Ek-T1x">
+                                <rect key="frame" x="0.0" y="192" width="314" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKI-KJ-6q9">
+                                        <rect key="frame" x="119" y="42" width="43" height="30"/>
+                                        <state key="normal" title="하단 위"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="AKI-KJ-6q9" firstAttribute="centerY" secondItem="cDO-Ek-T1x" secondAttribute="centerY" id="4sp-8X-khu"/>
+                                    <constraint firstAttribute="width" constant="314" id="6Bt-25-Lgk"/>
+                                    <constraint firstAttribute="height" constant="128" id="8hn-Fp-B77"/>
+                                    <constraint firstItem="AKI-KJ-6q9" firstAttribute="centerY" secondItem="cDO-Ek-T1x" secondAttribute="centerY" id="Wam-iJ-FdZ"/>
+                                    <constraint firstItem="AKI-KJ-6q9" firstAttribute="centerX" secondItem="cDO-Ek-T1x" secondAttribute="centerX" id="X0z-Us-16m"/>
+                                    <constraint firstItem="AKI-KJ-6q9" firstAttribute="centerX" secondItem="cDO-Ek-T1x" secondAttribute="centerX" id="qBW-jZ-qlB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cDO-Ek-T1x" secondAttribute="trailing" constant="20" symbolic="YES" id="3GR-Z1-M8Q"/>
+                            <constraint firstItem="cDO-Ek-T1x" firstAttribute="top" secondItem="O0m-vh-3mG" secondAttribute="bottom" constant="13" id="5FE-il-YvJ"/>
+                            <constraint firstItem="gOp-Fq-kFe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="BAj-d3-Xoe"/>
+                            <constraint firstItem="Lf2-zm-VfR" firstAttribute="height" secondItem="cDO-Ek-T1x" secondAttribute="height" id="KBJ-yW-T3Q"/>
+                            <constraint firstItem="Lf2-zm-VfR" firstAttribute="width" secondItem="cDO-Ek-T1x" secondAttribute="width" id="LMo-7d-ARq"/>
+                            <constraint firstAttribute="trailing" secondItem="O0m-vh-3mG" secondAttribute="trailing" constant="20" symbolic="YES" id="QAD-vz-euy"/>
+                            <constraint firstItem="O0m-vh-3mG" firstAttribute="leading" secondItem="gOp-Fq-kFe" secondAttribute="trailing" constant="8" id="SZD-Bf-xsS"/>
+                            <constraint firstItem="O0m-vh-3mG" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="Xyj-Gb-ozO"/>
+                            <constraint firstItem="cDO-Ek-T1x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="bON-RO-z7T"/>
+                            <constraint firstAttribute="trailing" secondItem="Lf2-zm-VfR" secondAttribute="trailing" constant="20" symbolic="YES" id="cXf-55-NqI"/>
+                            <constraint firstItem="Lf2-zm-VfR" firstAttribute="top" secondItem="cDO-Ek-T1x" secondAttribute="bottom" constant="8" id="dMm-6d-GuS"/>
+                            <constraint firstItem="gOp-Fq-kFe" firstAttribute="centerY" secondItem="O0m-vh-3mG" secondAttribute="centerY" id="e2o-zV-Umw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Lf2-zm-VfR" secondAttribute="bottom" constant="8" symbolic="YES" id="e6A-ab-ulq"/>
+                            <constraint firstItem="O0m-vh-3mG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="hCV-RF-4sR"/>
+                            <constraint firstItem="Lf2-zm-VfR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="nhP-JP-BPK"/>
+                            <constraint firstItem="gOp-Fq-kFe" firstAttribute="height" secondItem="O0m-vh-3mG" secondAttribute="height" id="q6R-d9-UzQ"/>
+                            <constraint firstItem="gOp-Fq-kFe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="rd5-fk-eQK"/>
+                            <constraint firstItem="gOp-Fq-kFe" firstAttribute="width" secondItem="O0m-vh-3mG" secondAttribute="width" multiplier="3:7" id="sni-LQ-UUP"/>
+                            <constraint firstItem="gOp-Fq-kFe" firstAttribute="top" secondItem="O0m-vh-3mG" secondAttribute="top" id="wVv-tq-Pds"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="356"/>
+        </scene>
+    </scenes>
+</document>
